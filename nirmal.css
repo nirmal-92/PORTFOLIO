@@ -28,6 +28,7 @@ body{
     color: black;
     font-style: initial;
 }
+
 .about{
     color: white;
     background-color: rgb(201, 226, 231);
@@ -35,6 +36,43 @@ body{
     border-radius: 10px;
 }
 .about:hover {
+    background-color: grey;
+    color: black;
+    font-style: initial;
+}
+
+.resume{
+    color: white;
+    background-color: rgb(201, 226, 231);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.resume:hover {
+    background-color: grey;
+    color: black;
+    font-style: initial;
+}
+
+.projects{
+    color: white;
+    background-color: rgb(201, 226, 231);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.projects:hover {
+    background-color: grey;
+    color: black;
+    font-style: initial;
+}
+
+.contact{
+    color: white;
+    background-color: rgb(201, 226, 231);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.contact:hover {
     background-color: grey;
     color: black;
     font-style: initial;
