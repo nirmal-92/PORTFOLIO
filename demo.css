@@ -1,0 +1,13 @@
+div {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border-left: 10px solid green;
+  }
+  .new{
+    background-color: green;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+  }
