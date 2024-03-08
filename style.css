@@ -23,9 +23,8 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--extra-light);
+  border-bottom: var(--primary-color-dark);
   border-left: 8px solid #9333ea;
-  border-top: 8px solid #9333ea;
-  
 }
 
 nav {
@@ -38,12 +37,12 @@ nav {
 }
 
 .nav__content {
-  max-width: var(--max-width);
   margin: auto;
   padding: 1.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 8px solid var(--primary-color-dark);
 }
 
 nav .logo a {
@@ -97,6 +96,7 @@ ul li a:hover {
 }
 
 .section__container {
+  display: inline-flex;
   min-height: 100vh;
   max-width: var(--max-width);
   margin :auto;
@@ -104,6 +104,8 @@ ul li a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
+  justify-content: center;
+  margin-left: 6rem;
 }
 
 .content {
@@ -137,40 +139,6 @@ ul li a:hover {
   margin-bottom: 2rem;
 }
 
-.action__btns {
-  display: flex;
-  gap: 1rem;
-}
-
-.action__btns button {
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  padding: 1rem 2rem;
-  outline: none;
-  border: 2px solid var(--primary-color);
-  border-radius: 10px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.hire__me {
-  background-color: var(--primary-color);
-  color: #ffffff;
-}
-
-.hire__me:hover {
-  background-color: var(--primary-color-dark);
-}
-
-.portfolio {
-  color: var(--primary-color);
-}
-
-.portfolio:hover {
-  background-color: var(--primary-color-dark);
-  color: #ffffff;
-}
 
 .image {
   display: grid;
@@ -180,6 +148,10 @@ ul li a:hover {
 .image img {
   width: min(25rem, 90%);
   border-radius: 100%;
+  transition: .5s ease;
+}
+.image img:hover{
+  box-shadow: 0 0 2rem var(--primary-color);
 }
 
 @media (width < 750px) {
@@ -240,29 +212,103 @@ ul li a:hover {
   margin-left: 0.7rem;
   text-align: justify;
   width: auto;
-
 }
-.social-media{
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  padding: 10%;
-  margin: auto;
-  white-space:var(--primary-color);
-}
-
-#area{
-  font-size: 1.5rem;
-  font-weight: 600;
+.span1,
+.span2,
+.span3{
   color: var(--primary-color);
-  transition: 0.3s;
-  margin-bottom: 1rem;
-  
+  font-weight: 700;
+}
+.p1{
+  font-size: 1.5rem;
+  padding-top: .1px;
+  font-weight: 700;
+}
+
+.p2{
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 2rem 0 3rem;
+  font-weight: 500;
 }
 #section1{
+  min-height: 85vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: medium;
   flex-direction: column;
+  margin: auto;
+  
+}
+#section2{
+  min-height: 100vh;
+  background-color: var(--extra-light);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: medium;
+  flex-direction: column;
+  margin: auto;
+}
+#section3{
+  min-height: 85vh;
+  background-color: var(--extra-light);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: medium;
+  flex-direction: column;
+  margin: auto;
+}
+#section4{
+  min-height: 85vh;
+  background-color: var(--extra-light);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: medium;
+  flex-direction: column;
+  margin: auto;
+}
+#section5{
+  min-height: 85vh;
+  background-color: var(--extra-light);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: medium;
+  flex-direction: column;
+  margin: auto;
+}
+
+#area2{
+  color: var(--primary-color);
+  padding-top: 6rem;
+}
+#area3{
+  color: var(--primary-color);
+}
+#area4{
+  color: var(--primary-color);
+}
+#area5{
+  color: var(--primary-color);
+}
+
+.sm{
+  margin-left: 40px;
+}
+
+.sm a {
+  font-size: 20px;
+  margin-left: 6.5px;
+  transition: .5s ease;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 6.5px;
+}
+.sm a:hover{
+  box-shadow: 0 0 1rem var(--primary-color)
+}
+
+.sm a i{
+  margin-right: 10px;
 }

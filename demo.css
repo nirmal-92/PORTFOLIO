@@ -1,13 +1,35 @@
-div {
+.box {
     background-color: lightgrey;
-    width: 300px;
-    padding: 50px;
+    width: 11000px;
+    padding: 40px;
     margin: 20px;
-    border-left: 10px solid green;
+    border: 3px solid black;
+    position: relative;
+    display: flex;
   }
-  .new{
+
+  #cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background-color: green;
-    width: 150px;
-    color: white;
-    border-radius: 5px;
+    border-radius: 8px;
+    block-size: 30px;
   }
+  #size{
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+  }
+  #toy{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    white-space:initial;
+  }
+
+  
