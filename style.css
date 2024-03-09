@@ -215,7 +215,8 @@ ul li a:hover {
 }
 .span1,
 .span2,
-.span3{
+.span3,
+.span4{
   color: var(--primary-color);
   font-weight: 700;
 }
@@ -223,13 +224,14 @@ ul li a:hover {
   font-size: 1.5rem;
   padding-top: .1px;
   font-weight: 700;
+  margin-left: 13px;
 }
 
 .p2{
-  font-size: 2rem;
+  font-size: 21px;
   line-height: 1.5;
   margin: 2rem 0 3rem;
-  font-weight: 500;
+  margin-left: 13px;
 }
 #section1{
   min-height: 85vh;
@@ -242,7 +244,7 @@ ul li a:hover {
   
 }
 #section2{
-  min-height: 100vh;
+  min-height: 85vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
@@ -268,6 +270,9 @@ ul li a:hover {
   flex-direction: column;
   margin: auto;
 }
+#section4 i {
+  font-size: 50px;
+}
 #section5{
   min-height: 85vh;
   background-color: var(--extra-light);
@@ -280,16 +285,21 @@ ul li a:hover {
 
 #area2{
   color: var(--primary-color);
-  padding-top: 6rem;
+  padding-top: 7rem;
 }
 #area3{
   color: var(--primary-color);
+  padding-top: 7rem;
 }
 #area4{
   color: var(--primary-color);
+  padding-top: 7rem;
+  padding-right: 1rem;
 }
 #area5{
   color: var(--primary-color);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .sm{
@@ -297,18 +307,17 @@ ul li a:hover {
 }
 
 .sm a {
-  font-size: 20px;
-  margin-left: 6.5px;
+  font-size: 40px;
+  margin-left: 60px;
   transition: .5s ease;
-  border-radius: 8px;
-  width: fit-content;
-  height: fit-content;
-  padding-left: 6.5px;
+  border-radius: 12px;
+  padding-left: 10px;
+  margin-right: 7.5rem;
+  margin-bottom: 10rem;
 }
 .sm a:hover{
   box-shadow: 0 0 1rem var(--primary-color)
 }
-
 .sm a i{
   margin-right: 10px;
 }
