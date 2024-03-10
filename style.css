@@ -208,8 +208,7 @@ ul li a:hover {
   padding: 1rem 2rem;
   border: 2px solid #9333ea;
   border-radius: 10px;
-  margin-bottom: 1rem;
-  margin-left: 0.7rem;
+  margin-left: .1rem;
   text-align: justify;
   width: auto;
 }
@@ -234,7 +233,7 @@ ul li a:hover {
   margin-left: 13px;
 }
 #section1{
-  min-height: 85vh;
+  min-height: 100vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
@@ -244,7 +243,7 @@ ul li a:hover {
   
 }
 #section2{
-  min-height: 85vh;
+  min-height: 100vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
@@ -253,33 +252,45 @@ ul li a:hover {
   margin: auto;
 }
 #section3{
-  min-height: 85vh;
+  min-height: 100vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: medium;
   flex-direction: column;
-  margin: auto;
 }
 #section4{
-  min-height: 85vh;
+  min-height: 0vh;
   background-color: var(--extra-light);
+  margin-top: -30rem;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: medium;
   flex-direction: column;
-  margin: auto;
 }
 #section4 i {
   font-size: 50px;
 }
 #section5{
-  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
   background-color: var(--extra-light);
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: medium;
+  align-items: flex-start;
+  margin: auto;
+}
+#section6{
+  display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--extra-light);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: medium;
+  align-items: flex-start;
   margin: auto;
 }
 
@@ -289,7 +300,8 @@ ul li a:hover {
 }
 #area3{
   color: var(--primary-color);
-  padding-top: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 #area4{
   color: var(--primary-color);
@@ -301,23 +313,116 @@ ul li a:hover {
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
+#area6{
+  color: var(--primary-color);
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+}
 
 .sm{
   margin-left: 40px;
+  display: flex;
 }
 
 .sm a {
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 60px;
   transition: .5s ease;
   border-radius: 12px;
   padding-left: 10px;
   margin-right: 7.5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 10px;
 }
 .sm a:hover{
   box-shadow: 0 0 1rem var(--primary-color)
 }
 .sm a i{
   margin-right: 10px;
+}
+.sm, .phmail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding-bottom: 50px;
+  margin-left: 2rem;
+}
+
+.phmail {
+  align-items: flex-start; 
+  margin-left: 6.3rem;
+  font-size: 2.4rem;
+}
+.phmail a{
+  font-size: 30px;
+}
+.sm a, .phmail a {
+  margin-bottom: 23px;
+}
+
+.skill-content a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border-radius: 20%;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin: 3rem 18rem 3rem;
+  transition: .5s ease;
+}
+
+.skill-content p{
+  margin-left: 1.5rem;
+  justify-content: space-evenly;
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  border-width: 10rem fixed;
+}
+
+.porttable dd,
+.porttable dt {
+  font-size: 20px;
+  font-weight: 40;
+  text-align: left;
+  line-height: 2.5rem;
+  padding-left: 2.3rem;
+}
+
+.span4{
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 6rem;
+}
+
+.porttable2{
+    padding-top: 5rem;
+}
+
+.porttable2 dd,
+.porttable2 dt {
+    font-size: 20px;
+    font-weight: 40;
+    text-align: left;
+    margin-right: 2rem;
+    padding-left: 2.3rem;
+    line-height: 2.5rem;
+}
+.porttable3{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.porttable3 dd,
+.porttable3 dt {
+  font-size: 20px;
+  font-weight: 40;
+  text-align: left;
+  margin-right: 2rem;
+  padding-left: 2.3rem;
+  line-height: 2.5rem;
 }
